@@ -1,0 +1,75 @@
+/* Output.css */
+
+body {
+  display: grid;
+  grid-template-columns: 100% 60%;
+  align-self: center;
+}
+
+.upload {
+  background-color: #3a5978; /* Shade for the left section */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.upload input {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  align-self: center;
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+
+.upload .btn2,
+.upload .btn {
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+
+.upload .btn2 {
+  background-color: #1a7cbdcc;
+  color: #ffffff;
+  border: 2px solid #226693;
+}
+
+.upload .btn {
+  background-color: #03c409c8;
+  color: #ffffff;
+  border: 2px solid #007e02;
+  margin-left: 0rem;
+}
+
+.par {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.par img {
+  width: 100%;
+  max-width: 32rem;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  margin-left: -4rem;
+}
+
+.par .items {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #ecf0f1;
+  font-style: italic;
+  font-weight: bold;
+  align-self: center;
+  margin-left: -22rem;
+}

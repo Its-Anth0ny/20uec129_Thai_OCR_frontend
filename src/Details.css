@@ -1,0 +1,55 @@
+/* Filter.css */
+
+body {
+    background-color: #587b9e;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  .title {
+    text-align: center;
+    color: #333333;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+    margin-left: 4rem;
+  }
+  .parCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+    align-self: center;
+  }
+  
+  .card {
+    background-color: #3a5978;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 600px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .card button {
+    margin-top: 1rem;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    border: 2px solid #e74c3c;
+  }
+  
+  .card button:hover {
+    background-color: #c0392b;
+    border: 2px solid #c0392b;
+  }
+  

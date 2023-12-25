@@ -1,0 +1,98 @@
+body {
+  background-color: #FFFFFC;
+}
+
+.ocr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #184168;
+}
+
+.ocr p {
+  padding: 1.2rem 2rem;
+  margin-top: 1rem;
+  /* border-bottom: 10px solid #235789; */
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.upload input {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+
+
+
+.upload .btn2 {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  background-color: #78C3FB;
+  color: whitesmoke;
+  border-color: #78C3FB;
+}
+
+.upload .btn {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  background-color: #25A18E;
+  color: whitesmoke;
+  border-color: #25A18E;
+  margin-left: 2rem;
+}
+
+.par {
+  display: flex;
+  margin-left: 10%;
+  /* border: 10px solid #235789; */
+  margin-top: 2rem;
+  overflow: hidden;
+
+}
+
+.par img {
+  width: 100%;
+  height: auto;
+  max-width: 30rem;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.par .items {
+  font-size: 25px;
+  padding-left: 15rem;
+  /* margin-top: rem; */
+  font-weight: bold;
+  /* margin-left: -10rem; */
+}
+
+.parCard {
+  display: grid;
+  gap: 50px 100px;
+}
+
+.card {
+  /* flex-basis: 100%; */
+  grid-row-start: 1;
+  grid-row-end: 3;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: auto;
+  text-align: center;
+  padding: 1rem;
+ }
