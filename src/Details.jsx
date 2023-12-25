@@ -7,7 +7,7 @@ const Details = () => {
   const [res, setres] = useState([]);
 
   const handleDlt = (id) => {
-    axios.delete(`http://localhost:5000/api/users/${id}`)
+    axios.delete(`https://thai-id-ocr-app-backend-20uec129.onrender.com/api/users/${id}`)
       .then(response => {
         console.log(`Deleted post with ID ${id}`);
         analyse();
@@ -19,11 +19,11 @@ const Details = () => {
 
   const analyse = async () => {
     try {
-      const uri = `http://localhost:5000/api/users/`;
+      const uri = `https://thai-id-ocr-app-backend-20uec129.onrender.com/api/users/`;
       const ans = await axios.get(uri);
       console.log(ans.data);
       setres(ans.data);
-
+      
     } catch (error) {
       console.error('Error fetching images:', error);
     }

@@ -24,7 +24,7 @@ const Submit = () => {
     const formData = new FormData();
     formData.append("file", file);
 
-    axios.post('http://localhost:5000/upload', formData)
+    axios.post('https://thai-id-ocr-app-backend-20uec129.onrender.com/upload', formData)
       .then(res => {
         setImage(res.data.image);
         setId(res.data._id);
@@ -35,7 +35,7 @@ const Submit = () => {
   // Analyse uploaded file
   const analyse = async () => {
     try {
-      const uri = `http://localhost:5000/api/users/${id}`;
+      const uri = `https://thai-id-ocr-app-backend-20uec129.onrender.com/api/users/${id}`;
       const res = await axios.get(uri);
 
       setIden(res.data.identificationNumber);
@@ -61,7 +61,7 @@ const Submit = () => {
 
       <div className="par">
         <div className="img">
-          <img src={'http://localhost:5000/Images/' + image} alt="" />
+          <img src={'https://thai-id-ocr-app-backend-20uec129.onrender.com/Images/' + image} alt="" />
         </div>
         <div className="items">
           {okstate === "OK" ? (
